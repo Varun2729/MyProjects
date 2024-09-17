@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="surveyform.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Survey Form</h2>
+            <div class="Form-wrapper">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" placeholder="Enter your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email : </label>
+                        <input type="text" name="email" id="email" placeholder="Enter your Email">
+                    </div>
+                    <div class="form-group gender">
+    
+                        <div class="gender">
+                            <label for="Gender">Gender :</label>
+                            <input type="radio" name="gender" id="male"><label for="gender">Male</label>
+                            <input type="radio" name="gender" id="female"><label for="Female">Female</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="hear">Where did you hear about our company:</label>
+                        <select>
+                            <option class="transparent" value="Instagram">Instagram</option>
+                            <option  class="transparent" value="Facebook">Facebook</option>
+                            <option  class="transparent" value="Twitter">Twitter</option>
+                            <option class="transparent" value="google">Google</option>
+                            <option  class="transparent" value="others">Others</option>
+                            
+                        </select>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="lang">Favourite Language:</label>
+                        <input type="checkbox" name="va" id="Python"><label for="python">Python</label>
+                        <input type="checkbox" name="va" id="C"><label for="c">C Language</label>
+                        <input type="checkbox" name="va" id="HTML"><label for="HTML">HTML</label>
+                        <input type="checkbox" name="va" id="JavaScript"><label for="JavaScript">Java Script</label>
+                    </div>
+                    <div class="form-group flex">
+                        <label for="suggestions">How can we inprove ourselves</label>
+                        <textarea name="suggestions" id="Suggestions" cols="30" rows="10"></textarea>
+                    </div>
+                    <button type="submit">submit</button>
+
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
